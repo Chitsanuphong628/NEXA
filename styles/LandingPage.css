@@ -1,0 +1,118 @@
+
+html,body{
+    margin:0;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    position: fixed;
+    margin-top: 20px;
+    z-index: 2;
+   
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    gap:20px;
+
+}
+
+
+
+
+
+
+   
+}.button-header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 37px;
+    margin-right: 20px;
+    background: linear-gradient(145  deg, #69c5ffc9 18%, #70c8ff 65%, #0efbff 100%);
+    border-radius: 8px;
+    button{
+        width: 100%;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        color: #144471;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+}
+.section-1{
+    width: 100%;
+    height:100%;
+    background-image: url("/"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: #E5EDFE;
+    background: linear-gradient(145deg, rgba(229, 237, 254, 1) 48%, rgba(241, 244, 255, 1) 65%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    h1{
+        font-size: 30px;
+        span{
+            color: #57C785;
+            font-size: 50px;
+            text-shadow: 2px 2px 7px rgba(0,0,0,0.82);
+        
+        }
+    p{
+        font-size: 0.1rem;
+    }
+    }
+
+}
+
+.section-1-L{
+    position: relative;
+    z-index: 1;
+    margin-left: 2rem;
+}
+.button-section-1-L{
+    gap: 10px;
+    display: flex;
+    button{
+        width: 100px;
+        height: 45px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
+
+::-webkit-scrollbar{
+    width:0;
+}

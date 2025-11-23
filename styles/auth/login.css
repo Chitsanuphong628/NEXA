@@ -1,0 +1,84 @@
+html,body{
+        margin:0;
+        width: 100vw;
+        height:100vh;
+        background-image: url('/Backgroud/login/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center
+}
+section{
+    width:100%;
+    height: 100%;
+    display:flex;
+
+}
+.left-login{
+    width: 100%;
+    height: 100vh;
+
+    div{
+        color: #003797;
+}
+}
+.right-login{
+    width: 100%;
+    height: 100vh;
+    content: 'wait';
+        
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    label{
+        width: 70%;
+        height: 40px;
+        border: solid 1.5px rgb(205, 205, 205);
+        border-radius: 10px;
+        margin-bottom: 15px;
+        input{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            height: 100%;
+            width: 100%;
+            padding-left: 10px;
+        }
+    }
+}
+.login-button{
+    background: #2b266e;
+    background: linear-gradient(90deg, rgba(43, 38, 110, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    width: 70%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;transition: filter .2s, padding .2s;
+}
+.login-button:hover{
+    filter: brightness(1.2);
+}
+.register-other{
+    margin-top: 20px;
+    font-size: 14px;
+    border: none;
+    border-top: solid 1px rgb(205, 205, 205);
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    svg{
+        border: solid 1px rgb(205, 205, 205);
+        padding: 7px;
+        margin-top:20px;
+        border-radius: 50%;
+    }
+}
